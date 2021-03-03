@@ -66,4 +66,4 @@ function get_ubuntu_tarball() {
         exit 1
     fi
     get_ubuntu_tarball
-) 9> $CACHED_FILE_LOCK
+) 9> "$CACHED_FILE_LOCK"
